@@ -6,6 +6,7 @@ import { siteConfig } from "./config/site";
 import Header from "./components/Header";
 import ProfileCard from "./components/ProfileCard";
 import SocialLinks from "./components/SocialLinks";
+import AboutMe from "./components/AboutMe";
 import Footer from "./components/Footer";
 import Privacy from "./pages/Privacy";
 import Terms from "./pages/Terms";
@@ -78,6 +79,7 @@ function App() {
                     </div>
                     <div className="w-full md:w-2/3 transition-all duration-500">
                       <SocialLinks t={t} />
+                      <AboutMe t={t} />
                     </div>
                   </div>
                 </div>

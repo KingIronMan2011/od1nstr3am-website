@@ -10,7 +10,6 @@ export const siteConfig = {
   profile: {
     avatar: profilePic,
   },
-
 } as const;
 
 export type SiteConfig = typeof siteConfig;
