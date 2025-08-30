@@ -42,39 +42,6 @@ export const es = {
     darkMode: {
       toggle: "Alternar modo oscuro",
     },
-    artistDescriptions: {
-      modelArt: "Arte del modelo, rigging y BGM personalizada",
-      banners: "Banners y overlays de Twitch y X",
-      ytBanner: "Banner de YouTube, logo y overlay BRB",
-      emotes: "Emotes, banner y logo de Discord",
-      model3d: "Modelo 3D",
-      loreAnim: "Animación de video de lore",
-      loreVoice: "Voz en off del video de lore",
-      badges: "Insignias de suscriptor",
-      emotesBadges: "Emotes, banner de Discord, logo e insignias de suscriptor",
-      sketch1: "Boceto de modelo 2D",
-      sketch2: "Boceto de modelo 2D",
-      sketch3: "Boceto de modelo 2D",
-      sketch4: "Boceto de modelo 2D",
-      sketch5: "Boceto de modelo 2D",
-      sketch6: "Boceto de modelo 2D",
-      fanart: "Fan art y arte personalizado",
-    },
-    artistNames: {
-      vexivy404: "Vexivy404",
-      JayIllustrator: "JayIllustrator",
-      AdelinaArts: "AdelinaArts",
-      lunamoonof27171: "lunamoonoficial",
-      Micke_Creation: "Micke_Creation",
-      lie_live2d: "lie_live2d",
-      dankpunc: "Starfunkie",
-      Daisy_bunnyy: "Daisy_bunnyy",
-      Niwyria: "Niwyria",
-      Floophy_Loo: "Floophy_Loo",
-      Bellestissa: "Bellestissa",
-      LenitaLenK: "LenitaLenK",
-      seysech: "seysech",
-    },
     privacy: {
       title: "Política de Privacidad",
       introductionTitle: "Introducción",
@@ -124,6 +91,13 @@ export const es = {
     footer: {
       rights: "Todos los derechos reservados.",
       madeBy: "Hecho por",
+    },
+    sections: {
+      aboutMe: "Sobre mí",
+    },
+    aboutMe: {
+      description:
+        "Hola, soy Martin, tengo 33 años y me encanta jugar. Aquí verás de todo, desde terror hasta shooters. Estoy encantado de aceptar sugerencias sobre qué juego jugar a continuación.",
     },
   },
 };
