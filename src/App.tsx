@@ -92,8 +92,6 @@ function App() {
             <Route path="/terms-of-service" element={<Terms />} />
           </Routes>
         </div>
-
-        {/* Footer */}
         <Footer t={t} />
       </div>
     </div>
