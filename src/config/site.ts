@@ -1,19 +1,16 @@
-import profilePic from "../RossAndrewsVT_PP.png";
+import profilePic from "../Od1nStr3am_PP.png";
 
 export const siteConfig = {
-  title: "RossAndrewsVT's Website",
+  title: "Od1nStr3am's Website",
 
   panel: {
-    url: "https://twitch.tv/rossandrewsvt",
+    url: "https://twitch.tv/od1nstr3am_",
   },
 
   profile: {
     avatar: profilePic,
   },
 
-  sections: {
-    aboutMe: "About Me",
-  },
 } as const;
 
 export type SiteConfig = typeof siteConfig;

@@ -1,6 +1,6 @@
 export const en = {
   translation: {
-    title: "RossAndrewsVT's Website",
+    title: "Od1nStr3am's Website",
     panel: {
       buttonText: "Watch on Twitch",
     },
@@ -17,39 +17,27 @@ export const en = {
       },
     },
     profile: {
-      name: "RossAndrewsVT",
-      realName: "Ross Andrews",
-      email: "rossandrews.vtuber@gmail.com",
-      location: "Transylvania",
-      about: [
-        "Just a friendly half-vampire here to entertain you all!",
-        "Credits for every artist down below!",
-      ].join("\n\n"),
+      name: "Od1nStr3am",
+      realName: "Od1nStr3am",
+      location: "Asgard",
       links: [
         {
           label: "Twitch",
-          url: "https://twitch.tv/rossandrewsvt",
-        },
-        {
-          label: "Twitter",
-          url: "https://twitter.com/rossandrewsvt",
+          url: "https://twitch.tv/od1nstr3am_",
         },
         {
           label: "YouTube",
-          url: "https://youtube.com/@rossandrewsvt",
+          url: "https://youtube.com/@od1nstr3am",
         },
         {
           label: "Discord",
-          url: "https://discord.gg/2mMB2u5c6H",
+          url: "https://discord.gg/VzvuAyTPfa",
         },
         {
           label: "Donate",
-          url: "https://streamelements.com/rossandrewsvt/tip",
+          url: "https://streamlabs.com/sl_id_f6485b1e-6429-3aea-9287-54a722807dc6/tip",
         },
       ],
-    },
-    sections: {
-      aboutMe: "About Me",
     },
     darkMode: {
       toggle: "Toggle dark mode",
@@ -58,7 +46,7 @@ export const en = {
       vexivy404: "Vexivy404",
       JayIllustrator: "JayIllustrator",
       AdelinaArts: "AdelinaArts",
-      lunamoonof27171: "lunamoonoficial", // Changed from BaileyTyli341
+      lunamoonof27171: "lunamoonoficial",
       Micke_Creation: "Micke_Creation",
       lie_live2d: "lie_live2d",
       dankpunc: "Starfunkie",
