@@ -41,7 +41,7 @@ function App() {
 
   return (
     <div
-      className={`min-h-screen transition-opacity duration-700 ease-in-out relative overflow-x-hidden ${
+      className={`flex flex-col min-h-screen transition-opacity duration-700 ease-in-out relative overflow-x-hidden ${
         isVisible ? "opacity-100" : "opacity-0"
       }`}
     >
@@ -53,7 +53,7 @@ function App() {
         <div className="absolute inset-0 bg-white/40 dark:bg-black/30 backdrop-blur-[2px]" />
       </div>
 
-      <div className="relative z-50">
+      <div className="flex flex-col min-h-screen relative z-50">
         <Header
           t={t}
           i18n={i18n}
@@ -62,33 +62,38 @@ function App() {
           handlePanelClick={handlePanelClick}
         />
 
-        <Routes>
-          <Route
-            path="/"
-            element={
-              <main className="relative z-0 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 md:py-14">
-                <div className="bg-white/95 dark:bg-gray-800/95 backdrop-blur-lg rounded-2xl shadow-xl p-6 md:p-10 transition-all duration-500 hover:shadow-2xl border border-gray-100 dark:border-gray-700">
-                  <div className="flex flex-col md:flex-row gap-10 items-start">
-                    <div className="w-full md:w-1/3 transition-all duration-500">
-                      <ProfileCard
-                        t={t}
-                        handleCopy={handleCopy}
-                        copiedField={copiedField}
-                        siteConfig={siteConfig}
-                      />
-                    </div>
-                    <div className="w-full md:w-2/3 transition-all duration-500">
-                      <SocialLinks t={t} />
-                      <AboutMe t={t} />
+        {/* Main Content */}
+        <div className="flex-grow">
+          <Routes>
+            <Route
+              path="/"
+              element={
+                <main className="relative z-0 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 md:py-14">
+                  <div className="bg-white/95 dark:bg-gray-800/95 backdrop-blur-lg rounded-2xl shadow-xl p-6 md:p-10 transition-all duration-500 hover:shadow-2xl border border-gray-100 dark:border-gray-700">
+                    <div className="flex flex-col md:flex-row gap-10 items-start">
+                      <div className="w-full md:w-1/3 transition-all duration-500">
+                        <ProfileCard
+                          t={t}
+                          handleCopy={handleCopy}
+                          copiedField={copiedField}
+                          siteConfig={siteConfig}
+                        />
+                      </div>
+                      <div className="w-full md:w-2/3 transition-all duration-500">
+                        <SocialLinks t={t} />
+                        <AboutMe t={t} />
+                      </div>
                     </div>
                   </div>
-                </div>
-              </main>
-            }
-          />
-          <Route path="/privacy-policy" element={<Privacy />} />
-          <Route path="/terms-of-service" element={<Terms />} />
-        </Routes>
+                </main>
+              }
+            />
+            <Route path="/privacy-policy" element={<Privacy />} />
+            <Route path="/terms-of-service" element={<Terms />} />
+          </Routes>
+        </div>
+
+        {/* Footer */}
         <Footer t={t} />
       </div>
     </div>
