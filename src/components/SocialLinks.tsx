@@ -1,5 +1,6 @@
 import {
   FaTwitch,
+  FaTiktok,
   FaYoutube,
   FaDiscord,
   FaMoneyBillWave,
@@ -54,6 +55,13 @@ const SocialLinks = ({ t }: any) => {
       url: t("profile.links.2.url"),
       icon: <FaDiscord size={22} />,
       color: "bg-indigo-600 text-white hover:bg-indigo-700",
+      wide: false,
+    },
+    {
+      label: t("profile.links.4.label"),
+      url: t("profile.links.4.url"),
+      icon: <FaTiktok size={22} />,
+      color: "bg-black text-white hover:bg-gray-900",
       wide: false,
     },
     {

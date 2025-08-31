@@ -37,6 +37,10 @@ export const it = {
           label: "Donare",
           url: "https://streamlabs.com/sl_id_f6485b1e-6429-3aea-9287-54a722807dc6/tip",
         },
+        {
+          label: "TikTok",
+          url: "https://www.tiktok.com/@od1nstream",
+        },
       ],
     },
     darkMode: {
