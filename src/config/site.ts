@@ -1,4 +1,4 @@
-import profilePic from "../Od1nStr3am_PP.png";
+import profilePic from "/Od1nStr3am.png";
 
 export const siteConfig = {
   title: "Od1nStr3am's Website",
