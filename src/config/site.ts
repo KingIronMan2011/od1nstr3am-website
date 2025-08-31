@@ -14,13 +14,13 @@ export const siteConfig = {
   partners: [
     {
       name: "Instant Gaming",
-      url: "https://instant-gaming.com",
+      url: "https://www.instant-gaming.com/?igr=od1nstr3am",
       logo: "/InstantGaming.png",
       color: "#101010",
     },
     {
       name: "BytePlayers",
-      url: "https://byteplayers.net",
+      url: "https://discord.gg/3vXupyN5DB",
       logo: "/BytePlayers.png",
       color: "#1d2735",
     },
