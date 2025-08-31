@@ -59,7 +59,7 @@ const AboutMe = ({ t }: AboutMeProps) => {
       >
         {t(
           "aboutMe.description",
-          "Hey ich bin Martin, 33 Jahre jung und zocke für mein Leben gern. Bei mir wirst du von Horror bis Shooter alles sehen. Gern geh ich auch auf Wünsche ein, welches Game als nächstes gezockt wird."
+          "Hey ich bin Martin, 33 Jahre jung und zocke für mein Leben gern. Bei mir wirst du von Horror bis Shooter alles sehen. Gern geh ich auch auf Wünsche ein, welches Game als nächstes gezockt wird.",
         )}
       </motion.p>
     </motion.div>

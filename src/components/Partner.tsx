@@ -24,7 +24,11 @@ const Partner = ({ t, partners }: PartnerProps) => {
 
   const buttonVariants: Variants = {
     hidden: { opacity: 0, scale: 0.8 },
-    visible: { opacity: 1, scale: 1, transition: { delay: 0.6, duration: 0.4 } },
+    visible: {
+      opacity: 1,
+      scale: 1,
+      transition: { delay: 0.6, duration: 0.4 },
+    },
   };
 
   return (
@@ -46,7 +50,7 @@ const Partner = ({ t, partners }: PartnerProps) => {
       >
         {t(
           "partner.description",
-          "Ich bin stolz darauf, mit einigen großartigen Partnern zusammenzuarbeiten, die meine Leidenschaft für Gaming und Unterhaltung teilen."
+          "Ich bin stolz darauf, mit einigen großartigen Partnern zusammenzuarbeiten, die meine Leidenschaft für Gaming und Unterhaltung teilen.",
         )}
       </motion.p>
       <div className="flex flex-wrap gap-4">

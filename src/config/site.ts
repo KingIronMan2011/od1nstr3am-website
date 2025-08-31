@@ -12,9 +12,24 @@ export const siteConfig = {
   },
 
   partners: [
-    { name: "Instant Gaming", url: "https://instant-gaming.com", logo: "/InstantGaming.png", color: "#101010" },
-    { name: "BytePlayers", url: "https://byteplayers.net", logo: "/BytePlayers.png", color: "#1d2735" },
-    { name: "Gamers Gear", url: "https://gamersgear.de", logo: "/GamersGear.png", color: "#000000" },
+    {
+      name: "Instant Gaming",
+      url: "https://instant-gaming.com",
+      logo: "/InstantGaming.png",
+      color: "#101010",
+    },
+    {
+      name: "BytePlayers",
+      url: "https://byteplayers.net",
+      logo: "/BytePlayers.png",
+      color: "#1d2735",
+    },
+    {
+      name: "Gamers Gear",
+      url: "https://gamersgear.de",
+      logo: "/GamersGear.png",
+      color: "#000000",
+    },
   ],
 } as const;
 
