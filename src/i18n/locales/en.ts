@@ -95,9 +95,14 @@ export const en = {
   },
   sections: {
     aboutMe: "About Me",
+    partner: "Partners",
   },
   aboutMe: {
     description:
       "Hey, I'm Martin, 33 years old and I love gaming. You'll see everything from horror to shooters here. I'm happy to take requests for which game to play next.",
+  },
+  partner: {
+    description:
+      "I am proud to collaborate with some amazing partners who share my passion for gaming and entertainment.",
   },
 };

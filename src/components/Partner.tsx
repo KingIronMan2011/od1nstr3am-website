@@ -46,7 +46,7 @@ const Partner = ({ t, partners }: PartnerProps) => {
       >
         {t(
           "partner.description",
-          "Ich bin stolz darauf, mit einigen großartigen Partnern zusammenzuarbeiten, die meine Leidenschaft für Gaming und Unterhaltung teilen. Schaut euch ihre Kanäle an und unterstützt sie!"
+          "Ich bin stolz darauf, mit einigen großartigen Partnern zusammenzuarbeiten, die meine Leidenschaft für Gaming und Unterhaltung teilen."
         )}
       </motion.p>
       <div className="flex flex-wrap gap-4">

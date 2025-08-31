@@ -44,25 +44,25 @@ const SocialLinks = ({ t }: any) => {
     },
     {
       label: t("profile.links.1.label"),
-      url: t("profile.links.2.url"),
+      url: t("profile.links.1.url"),
       icon: <FaYoutube size={22} />,
       color: "bg-red-600 text-white hover:bg-red-700",
       wide: false,
     },
     {
       label: t("profile.links.2.label"),
-      url: t("profile.links.3.url"),
+      url: t("profile.links.2.url"),
       icon: <FaDiscord size={22} />,
       color: "bg-indigo-600 text-white hover:bg-indigo-700",
       wide: false,
     },
     {
       label: t("profile.links.3.label"),
-      url: t("profile.links.4.url"),
-      icon: <FaMoneyBillWave size={24} />,
+      url: t("profile.links.3.url"),
+      icon: <FaMoneyBillWave size={22} />,
       color:
         "bg-green-600 text-white hover:bg-green-700 font-bold text-lg border-2 border-green-300",
-      wide: true,
+      wide: false,
     },
   ];
 

@@ -95,9 +95,14 @@ export const fr = {
   },
   sections: {
     aboutMe: "À propos de moi",
+    partner: "Partenaires",
   },
   aboutMe: {
     description:
       "Salut, je suis Martin, j'ai 33 ans et j'adore jouer. Vous verrez ici tout, des jeux d'horreur aux jeux de tir. Je suis heureux de prendre des suggestions pour le prochain jeu à jouer.",
+  },
+  partner: {
+    description:
+      "Je suis fier de collaborer avec des partenaires incroyables qui partagent ma passion pour le jeu et le divertissement.",
   },
 };

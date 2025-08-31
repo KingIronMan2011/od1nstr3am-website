@@ -94,10 +94,15 @@ export const pt = {
     },
     sections: {
       aboutMe: "Sobre mim",
+      partner: "Parceiros",
     },
     aboutMe: {
       description:
         "Olá, sou Martin, tenho 33 anos e adoro jogar. Aqui você verá de tudo, desde terror até jogos de tiro. Estou feliz em aceitar sugestões sobre qual jogo jogar a seguir.",
+    },
+    partner: {
+      description:
+        "Tenho orgulho de colaborar com alguns parceiros incríveis que compartilham minha paixão por jogos e entretenimento.",
     },
   },
 };

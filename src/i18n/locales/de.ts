@@ -95,9 +95,14 @@ export const de = {
   },
   sections: {
     aboutMe: "Über mich",
+    partner: "Partner",
   },
   aboutMe: {
     description:
       "Hey ich bin Martin, 33 Jahre jung und zocke für mein Leben gern. Bei mir wirst du von Horror bis Shooter alles sehen. Gern geh ich auch auf Wünsche ein, welches Game als nächstes gezockt wird.",
+  },
+  partner: {
+    description:
+      "Ich bin stolz darauf, mit einigen großartigen Partnern zusammenzuarbeiten, die meine Leidenschaft für Gaming und Unterhaltung teilen.",
   },
 };
