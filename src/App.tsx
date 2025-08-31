@@ -14,6 +14,7 @@ import Terms from "./pages/Terms";
 
 function App() {
   const { t, i18n } = useTranslation();
+  const partners = siteConfig.partners;
   const [darkMode, setDarkMode] = useState(() => {
     const savedMode = localStorage.getItem("darkMode");
     return savedMode !== null
@@ -83,7 +84,7 @@ function App() {
                       <div className="w-full md:w-2/3 transition-all duration-500">
                         <SocialLinks t={t} />
                         <AboutMe t={t} />
-                        <Partner t={t} />
+                        <Partner t={t} partners={[...partners]} />
                       </div>
                     </div>
                   </div>
