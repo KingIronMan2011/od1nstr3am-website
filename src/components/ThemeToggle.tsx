@@ -72,9 +72,9 @@ const ThemeToggle: React.FC = () => {
         ${
           theme === "light"
             ? "bg-white hover:bg-white"
-            : "bg-gray-800/60 hover:bg-gray-700/80"
+            : "bg-zinc-800/60 hover:bg-zinc-700/80"
         }
-        transition-all duration-200 shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500`}
+        transition-all duration-200 shadow-sm focus:outline-none focus:ring-2 focus:ring-zinc-500`}
       aria-label="Toggle theme"
       {...buttonMotion}
       type="button"
@@ -82,7 +82,7 @@ const ThemeToggle: React.FC = () => {
     >
       <span className="sr-only">Toggle theme</span>
       {theme === "light" ? (
-        <Moon size={20} className="text-blue-400" />
+        <Moon size={20} className="text-zinc-500" />
       ) : (
         <Sun size={20} className="text-yellow-400 slow-spin" />
       )}

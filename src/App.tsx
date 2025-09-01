@@ -49,9 +49,9 @@ function App() {
     >
       {/* Background overlays */}
       <div className="absolute inset-0 pointer-events-none z-0">
-        <div className="absolute inset-0 bg-gradient-to-br from-blue-50 via-gray-50 to-indigo-50 dark:from-gray-900 dark:via-slate-900 dark:to-gray-900 transition-all duration-700" />
-        <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_120%,rgba(120,119,198,0.08),transparent_60%)] dark:bg-[radial-gradient(circle_at_50%_120%,rgba(120,119,198,0.04),transparent_60%)]" />
-        <div className="absolute inset-0 bg-[radial-gradient(circle_at_80%_20%,rgba(147,197,253,0.08),transparent_60%)] dark:bg-[radial-gradient(circle_at_80%_20%,rgba(37,99,235,0.04),transparent_60%)]" />
+        <div className="absolute inset-0 bg-gradient-to-br from-zinc-50 via-zinc-100 to-zinc-50 dark:from-zinc-900 dark:via-zinc-800 dark:to-zinc-900 transition-all duration-700" />
+        <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_120%,rgba(82,82,91,0.08),transparent_60%)] dark:bg-[radial-gradient(circle_at_50%_120%,rgba(82,82,91,0.04),transparent_60%)]" />
+        <div className="absolute inset-0 bg-[radial-gradient(circle_at_80%_20%,rgba(113,113,122,0.08),transparent_60%)] dark:bg-[radial-gradient(circle_at_80%_20%,rgba(63,63,70,0.04),transparent_60%)]" />
         <div className="absolute inset-0 bg-white/40 dark:bg-black/30 backdrop-blur-[2px]" />
       </div>
 

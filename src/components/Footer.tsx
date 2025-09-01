@@ -6,7 +6,7 @@ const footerVariants: Variants = {
   animate: {
     opacity: 1,
     y: 0,
-    transition: { type: "spring", stiffness: 100, damping: 20 },
+    transition: { type: "spring", stiffness: 120, damping: 22 },
   },
 };
 
@@ -16,17 +16,18 @@ const linkVariants: Variants = {
     opacity: 1,
     y: 0,
     transition: {
-      delay: 0.2 + i * 0.1,
-      duration: 0.4,
+      delay: 0.2 + i * 0.15,
+      duration: 0.5,
       type: "spring",
-      stiffness: 120,
+      stiffness: 140,
+      damping: 20,
     },
   }),
 };
 
 const Footer = ({ t }: any) => (
   <motion.footer
-    className="w-full flex flex-col items-center py-10 px-4 text-sm text-gray-600 dark:text-gray-400 bg-gray-50 dark:bg-gray-900 border-t border-gray-200 dark:border-gray-800 transition-all duration-500"
+    className="w-full flex flex-col items-center py-10 px-4 text-sm text-zinc-600 dark:text-zinc-400 bg-zinc-50 dark:bg-zinc-900 border-t border-zinc-200 dark:border-zinc-800 transition-all duration-500"
     variants={footerVariants}
     initial="initial"
     animate="animate"
@@ -36,11 +37,11 @@ const Footer = ({ t }: any) => (
       className="text-center mb-6"
       initial={{ opacity: 0, y: 10 }}
       animate={{ opacity: 1, y: 0 }}
-      transition={{ delay: 0.1, duration: 0.5, type: "spring", stiffness: 120 }}
+      transition={{ delay: 0.1, duration: 0.6, type: "spring", stiffness: 140, damping: 20 }}
     >
-      <p className="text-base font-medium text-gray-800 dark:text-gray-200">
+      <p className="text-base font-medium text-zinc-800 dark:text-zinc-200">
         &copy; {new Date().getFullYear()}{" "}
-        <span className="font-semibold text-gray-900 dark:text-white">
+        <span className="font-semibold text-zinc-900 dark:text-white">
           {t("profile.realName")}
         </span>
         . {t("footer.rights", "All rights reserved.")}
@@ -61,7 +62,7 @@ const Footer = ({ t }: any) => (
       ].map((link, i) => (
         <motion.div
           key={link.to}
-          className="text-gray-600 dark:text-gray-400 hover:text-blue-600 dark:hover:text-blue-400 hover:underline transition-all duration-300 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 dark:focus:ring-offset-gray-900"
+          className="text-zinc-600 dark:text-zinc-400 hover:text-zinc-700 dark:hover:text-zinc-300 hover:underline transition-all duration-300 focus:outline-none focus:ring-2 focus:ring-zinc-500 focus:ring-offset-2 dark:focus:ring-offset-zinc-900"
           variants={linkVariants}
           initial="initial"
           animate="animate"
@@ -77,15 +78,15 @@ const Footer = ({ t }: any) => (
       className="text-center"
       initial={{ opacity: 0, y: 10 }}
       animate={{ opacity: 1, y: 0 }}
-      transition={{ delay: 0.4, duration: 0.4, type: "spring", stiffness: 120 }}
+      transition={{ delay: 0.5, duration: 0.5, type: "spring", stiffness: 140, damping: 20 }}
     >
-      <p className="text-sm text-gray-500 dark:text-gray-500">
+      <p className="text-sm text-zinc-500 dark:text-zinc-500">
         {t("footer.madeBy", "Made by")}{" "}
         <a
           href="https://github.com/KingIronMan2011"
           target="_blank"
           rel="noopener noreferrer"
-          className="font-semibold text-blue-600 dark:text-blue-400 hover:text-blue-700 dark:hover:text-blue-300 hover:underline transition-all duration-300 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 dark:focus:ring-offset-gray-900"
+          className="font-semibold text-zinc-600 dark:text-zinc-400 hover:text-zinc-700 dark:hover:text-zinc-300 hover:underline transition-all duration-300 focus:outline-none focus:ring-2 focus:ring-zinc-500 focus:ring-offset-2 dark:focus:ring-offset-zinc-900"
         >
           KingIronMan2011
         </a>

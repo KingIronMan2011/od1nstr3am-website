@@ -15,22 +15,22 @@ const linkVariants = {
     y: 0,
     scale: 1,
     transition: {
-      duration: 0.32,
+      duration: 0.4,
       type: "spring" as const,
-      stiffness: 120,
-      damping: 16,
-      mass: 0.7,
+      stiffness: 140,
+      damping: 18,
+      mass: 0.8,
     },
   },
-  exit: { opacity: 0, y: 24, scale: 0.98, transition: { duration: 0.18 } },
+  exit: { opacity: 0, y: 24, scale: 0.98, transition: { duration: 0.2 } },
   whileHover: {
-    scale: 1.02,
-    boxShadow: "0 8px 32px rgba(59, 130, 246, 0.1)",
-    transition: { type: "spring" as const, stiffness: 260, damping: 18 },
+    scale: 1.03,
+    boxShadow: "0 12px 40px rgba(63, 63, 70, 0.15)",
+    transition: { type: "spring" as const, stiffness: 280, damping: 20 },
   },
   whileTap: {
-    scale: 0.97,
-    transition: { type: "spring" as const, stiffness: 300, damping: 22 },
+    scale: 0.98,
+    transition: { type: "spring" as const, stiffness: 320, damping: 24 },
   },
 };
 
@@ -61,7 +61,7 @@ const SocialLinks = ({ t }: any) => {
       label: t("profile.links.4.label"),
       url: t("profile.links.4.url"),
       icon: <FaTiktok size={22} />,
-      color: "bg-black text-white hover:bg-gray-900",
+      color: "bg-black text-white hover:bg-zinc-900",
       wide: false,
     },
     {
@@ -77,16 +77,16 @@ const SocialLinks = ({ t }: any) => {
   return (
     <div className="mt-10 z-0 relative">
       <motion.h3
-        className="text-lg md:text-xl font-semibold text-gray-800 dark:text-white mb-5 transition-all duration-500 ease-in-out tracking-tight"
+        className="text-lg md:text-xl font-semibold text-zinc-800 dark:text-white mb-5 transition-all duration-500 ease-in-out tracking-tight"
         initial={{ opacity: 0, y: -12 }}
         animate={{
           opacity: 1,
           y: 0,
           transition: {
-            duration: 0.6,
+            duration: 0.7,
             type: "spring",
-            stiffness: 100,
-            damping: 18,
+            stiffness: 120,
+            damping: 20,
           },
         }}
       >
