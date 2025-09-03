@@ -41,6 +41,11 @@ export const de = {
           label: "TikTok",
           url: "https://www.tiktok.com/@od1nstream",
         },
+        {
+          Label: "Merch",
+          url:
+"https://gamersgear.com/collections/od1nstr3am",
+        },
       ],
     },
     darkMode: {
