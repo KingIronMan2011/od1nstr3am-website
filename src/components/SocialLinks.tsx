@@ -4,7 +4,7 @@ import {
   FaYoutube,
   FaDiscord,
   FaMoneyBillWave,
-  FaMerch,
+  FaTshirt,
 } from "react-icons/fa6";
 import { ExternalLink } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
@@ -68,7 +68,7 @@ const SocialLinks = ({ t }: any) => {
     {
       label: t("profile.links.5.label"),
       url: t("profile.links.5.url"),
-      icon: <FaMerch size={22} />,
+      icon: <FaTshirt size={22} />,
       color: "bg-black text-white hover:bg-gray-900",
       wide: false,
     },
