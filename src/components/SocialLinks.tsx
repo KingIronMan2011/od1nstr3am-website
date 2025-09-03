@@ -4,8 +4,8 @@ import {
   FaYoutube,
   FaDiscord,
   FaMoneyBillWave,
-  FaTshirt,
 } from "react-icons/fa6";
+import { FaTshirt } from "react-icons/fa";
 import { ExternalLink } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
 
