@@ -44,7 +44,7 @@ export const de = {
         {
           Label: "Merch",
           url:
-"https://gamersgear.com/collections/od1nstr3am",
+"https://gamersgear.de/collections/od1nstr3am?type=grid",
         },
       ],
     },
