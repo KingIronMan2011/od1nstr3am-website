@@ -1,7 +1,8 @@
 import { User, MapPin } from "lucide-react";
 import { motion } from "framer-motion";
+import type { ProfileCardProps } from "../types/common";
 
-const ProfileCard = ({ t, siteConfig }: any) => (
+const ProfileCard = ({ t, siteConfig }: ProfileCardProps) => (
   <motion.div
     className="w-full"
     initial={{ opacity: 0, y: 30 }}
