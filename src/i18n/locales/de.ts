@@ -13,7 +13,6 @@ export const de = {
         fr: "Französisch",
         it: "Italienisch",
         pt: "Portugiesisch",
-        ro: "Romänisch",
       },
     },
     profile: {
@@ -42,9 +41,8 @@ export const de = {
           url: "https://www.tiktok.com/@od1nstream",
         },
         {
-          Label: "Merch",
-          url:
-"https://gamersgear.de/collections/od1nstr3am?type=grid",
+          label: "Merch",
+          url: "https://gamersgear.de/collections/od1nstr3am?type=grid",
         },
       ],
     },

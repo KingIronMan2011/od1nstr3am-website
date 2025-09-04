@@ -7,7 +7,6 @@ import { es } from "./locales/es";
 import { fr } from "./locales/fr";
 import { it } from "./locales/it";
 import { pt } from "./locales/pt";
-import { ro } from "./locales/ro";
 
 i18n
   .use(LanguageDetector)
@@ -20,10 +19,9 @@ i18n
       fr: { translation: fr.translation },
       it: { translation: it.translation },
       pt: { translation: pt.translation },
-      ro: { translation: ro.translation },
     },
     fallbackLng: "en",
-    supportedLngs: ["en", "de", "es", "fr", "it", "pt", "ro"],
+    supportedLngs: ["en", "de", "es", "fr", "it", "pt"],
     detection: {
       order: ["navigator", "localStorage", "htmlTag"],
       lookupLocalStorage: "preferred-language",

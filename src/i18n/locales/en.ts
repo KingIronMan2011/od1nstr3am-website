@@ -13,7 +13,6 @@ export const en = {
         fr: "French",
         it: "Italian",
         pt: "Portuguese",
-        ro: "Romanian",
       },
     },
     profile: {

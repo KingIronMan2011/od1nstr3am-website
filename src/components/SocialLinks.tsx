@@ -60,6 +60,14 @@ const SocialLinks = ({ t }: TranslationProps) => {
       wide: false,
     },
     {
+      label: t("profile.links.3.label"),
+      url: t("profile.links.3.url"),
+      icon: <FaMoneyBillWave size={22} />,
+      color:
+        "bg-green-600 text-white hover:bg-green-700 font-bold text-lg border-2 border-green-300",
+      wide: false,
+    },
+    {
       label: t("profile.links.4.label"),
       url: t("profile.links.4.url"),
       icon: <FaTiktok size={22} />,
@@ -71,14 +79,6 @@ const SocialLinks = ({ t }: TranslationProps) => {
       url: t("profile.links.5.url"),
       icon: <FaTshirt size={22} />,
       color: "bg-black text-white hover:bg-gray-900",
-      wide: false,
-    },
-    {
-      label: t("profile.links.3.label"),
-      url: t("profile.links.3.url"),
-      icon: <FaMoneyBillWave size={22} />,
-      color:
-        "bg-green-600 text-white hover:bg-green-700 font-bold text-lg border-2 border-green-300",
       wide: false,
     },
   ];
