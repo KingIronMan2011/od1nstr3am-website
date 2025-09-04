@@ -1,7 +1,7 @@
 {
-  "name": "kingironman-website",
+  "name": "od1nstr3am-website",
   "private": true,
-  "version": "V2",
+  "version": "1.1",
   "type": "module",
   "scripts": {
     "dev": "vite",
