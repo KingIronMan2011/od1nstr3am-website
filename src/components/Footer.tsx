@@ -1,5 +1,6 @@
 import { motion, Variants } from "framer-motion";
 import { Link } from "react-router-dom";
+import type { TranslationProps } from "../types/common";
 
 const footerVariants: Variants = {
   initial: { opacity: 0, y: 20 },
@@ -24,7 +25,7 @@ const linkVariants: Variants = {
   }),
 };
 
-const Footer = ({ t }: any) => (
+const Footer = ({ t }: TranslationProps) => (
   <motion.footer
     className="w-full flex flex-col items-center py-10 px-4 text-sm text-gray-600 dark:text-gray-400 bg-gray-50 dark:bg-gray-900 border-t border-gray-200 dark:border-gray-800 transition-all duration-500"
     variants={footerVariants}

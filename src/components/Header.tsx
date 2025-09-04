@@ -3,13 +3,14 @@ import ThemeToggle from "./ThemeToggle";
 import { motion } from "framer-motion";
 import { LanguageSelector } from "./LanguageSelector";
 import { Link } from "react-router-dom";
+import type { HeaderProps } from "../types/common";
 
 const Header = ({
   t,
   handlePanelClick,
   isMobileMenuOpen,
   setIsMobileMenuOpen,
-}: any) => {
+}: HeaderProps) => {
   return (
     <motion.nav
       className="sticky top-0 bg-white/95 dark:bg-gray-800/95 backdrop-blur-sm shadow-sm border-b border-gray-200 dark:border-gray-700 z-50"

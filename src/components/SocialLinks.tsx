@@ -8,6 +8,7 @@ import {
 import { FaTshirt } from "react-icons/fa";
 import { ExternalLink } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
+import type { TranslationProps } from "../types/common";
 
 const linkVariants = {
   initial: { opacity: 0, y: 24, scale: 0.98 },
@@ -35,7 +36,7 @@ const linkVariants = {
   },
 };
 
-const SocialLinks = ({ t }: any) => {
+const SocialLinks = ({ t }: TranslationProps) => {
   const links = [
     {
       label: t("profile.links.0.label"),
