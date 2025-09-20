@@ -3,6 +3,7 @@ import { createRoot } from "react-dom/client";
 import { ThemeProvider } from "./context/ThemeContext";
 import { BrowserRouter } from "react-router-dom";
 import { I18nextProvider } from "react-i18next";
+import { Analytics } from "@vercel/analytics/react"
 import App from "./App.tsx";
 import i18n from "./i18n";
 import "./index.css";
@@ -29,6 +30,7 @@ createRoot(document.getElementById("root")!).render(
       <ThemeProvider>
         <BrowserRouter>
           <Root />
+          <Analytics />
         </BrowserRouter>
       </ThemeProvider>
     </I18nextProvider>

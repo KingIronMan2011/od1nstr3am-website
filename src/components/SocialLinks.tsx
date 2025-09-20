@@ -8,7 +8,7 @@ import {
 import { FaTshirt } from "react-icons/fa";
 import { ExternalLink } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
-import type { TranslationProps } from "../types/common";
+import { TranslationProps } from "../vite-env";
 
 const linkVariants = {
   initial: { opacity: 0, y: 24, scale: 0.98 },

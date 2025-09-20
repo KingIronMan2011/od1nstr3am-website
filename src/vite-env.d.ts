@@ -1,3 +1,17 @@
 /// <reference types="vite/client" />
-// Type definitions for Vite environment.
-// Extend this file if you need custom types for your project.
+
+export interface TranslationProps {
+  t: TFunction;
+}
+
+export interface ProfileCardProps {
+  t: TFunction;
+  siteConfig: SiteConfig;
+}
+
+export interface HeaderProps {
+  t: TFunction;
+  handlePanelClick: () => void;
+  isMobileMenuOpen: boolean;
+  setIsMobileMenuOpen: React.Dispatch<React.SetStateAction<boolean>>;
+}
