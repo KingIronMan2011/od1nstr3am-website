@@ -33,19 +33,19 @@ const Partner = ({ t, partners }: PartnerProps) => {
 
   return (
     <motion.div
-      className="mt-8 p-6 bg-white/70 dark:bg-gray-800/70 rounded-lg shadow-md backdrop-blur-sm transition-colors duration-500"
+      className="mt-8 p-6 bg-white/70 dark:bg-zinc-800/70 rounded-lg shadow-md backdrop-blur-sm transition-colors duration-500"
       variants={containerVariants}
       initial="hidden"
       animate="visible"
     >
       <motion.h2
-        className="text-2xl font-semibold text-gray-800 dark:text-white mb-4 transition-colors duration-300"
+        className="text-2xl font-semibold text-zinc-800 dark:text-white mb-4 transition-colors duration-300"
         variants={titleVariants}
       >
         {t("sections.partner", "Partner")}
       </motion.h2>
       <motion.p
-        className="text-gray-700 dark:text-gray-300 leading-relaxed transition-colors duration-300 mb-6"
+        className="text-zinc-700 dark:text-zinc-300 leading-relaxed transition-colors duration-300 mb-6"
         variants={textVariants}
       >
         {t(

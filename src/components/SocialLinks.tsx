@@ -63,14 +63,14 @@ const SocialLinks = ({ t }: TranslationProps) => {
       label: t("profile.links.4.label"),
       url: t("profile.links.4.url"),
       icon: <FaTiktok size={22} />,
-      color: "bg-black text-white hover:bg-gray-900",
+      color: "bg-black text-white hover:bg-zinc-900",
       wide: false,
     },
     {
       label: t("profile.links.5.label"),
       url: t("profile.links.5.url"),
       icon: <FaTshirt size={22} />,
-      color: "bg-black text-white hover:bg-gray-900",
+      color: "bg-black text-white hover:bg-zinc-900",
       wide: false,
     },
     {
@@ -86,7 +86,7 @@ const SocialLinks = ({ t }: TranslationProps) => {
   return (
     <div className="mt-10 z-0 relative">
       <motion.h3
-        className="text-lg md:text-xl font-semibold text-gray-800 dark:text-white mb-5 transition-all duration-500 ease-in-out tracking-tight"
+        className="text-lg md:text-xl font-semibold text-zinc-800 dark:text-white mb-5 transition-all duration-500 ease-in-out tracking-tight"
         initial={{ opacity: 0, y: -12 }}
         animate={{
           opacity: 1,
